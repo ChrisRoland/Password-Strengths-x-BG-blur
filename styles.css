@@ -30,3 +30,11 @@ body {
 .container {
     background: #ffffffe5;
 }
+
+input:focus {
+    outline: #0e1936 solid 2px;
+}
+
+button:hover {
+    background: #2f2e2e;
+}
