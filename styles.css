@@ -29,6 +29,7 @@ body {
 
 .container {
     background: #ffffffe5;
+    width: 60%;
 }
 
 input:focus {
@@ -37,4 +38,15 @@ input:focus {
 
 button:hover {
     background: #2f2e2e;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 80%;
+        padding: 30px;
+    }
 }
